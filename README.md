@@ -1,5 +1,8 @@
 # ExemplosJS
-Exemplos de uso de métodos e propriedades do Javascript ES6, usando NodeJS
+Exemplos de uso de métodos e propriedades do Javascript ES6, usando NodeJS no Ubuntu.
+
+Após ter instalado o NodeJS, crie uma pasta, com por exemplo, o nome ```Exemplo```. Dentro desta pasta, abra o terminal e em seguida faça:
+```seu_usurio@seu_pc:~/Exemplo$```npm init -y
 
 ### Exemplo 01: é maior do que 10 ?
 O objetivo é criar um algoritmo que compara um valor numérico com o número 10 e depois exiba uma mensagem. Porém, vamos criar primeiro um objeto que irá conter as propriedades ```valor_usuario ``` (valor digitado pelo usuário), ```valor_referencia``` (valor númerico 10) e ```resultado``` (que é o resultado esperado como correto).
