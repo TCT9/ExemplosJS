@@ -2,7 +2,7 @@
 Exemplos de uso de métodos e propriedades do Javascript ES6, usando NodeJS
 
 ### Exemplo 01: é maior do que 10 ?
-O objetivo é criar um algoritmo que compara um valor numérico com o número 10 e depois exiba uma mensagem. Porém, vamos criar primeiro um objeto que irá conter as propriedades ```javascript valor_usuario ``` (valor digitado pelo usuário), 'valor_referencia' (valor númerico 10) e 'resultado' (que é o resultado esperado como correto)
+O objetivo é criar um algoritmo que compara um valor numérico com o número 10 e depois exiba uma mensagem. Porém, vamos criar primeiro um objeto que irá conter as propriedades ```valor_usuario ``` (valor digitado pelo usuário), ```valor_referencia``` (valor númerico 10) e ```resultado``` (que é o resultado esperado como correto).
 ```javascript
 const obj_entradas_saidas_1 = [
   {valor_usuario: 5, valor_referencia: 10, resultado: "Comparação: 5 é menor do que 10."},
@@ -27,9 +27,9 @@ function teste_compararCom(obj_entradas_saidas, minha_funcao){
     });
 }
 ```
-A função de teste recebe como parâmetros um 'obj_entradas_saidas' e 'minha_funcao' e executa uma comparação do valor retornado por 'minha_funcao' com o valor esperado, contido em 'obj_entradas_saidas.resultado'. 
+A função de teste recebe como parâmetros um ```obj_entradas_saidas``` e ```minha_funcao``` e executa uma comparação do valor retornado por ```minha_funcao``` com o valor esperado, contido em ```obj_entradas_saidas.resultado```. 
 
-O objetivo é criar uma função, com os parâmtros 'valor' e 'referencia' que retorne as strings esperadas, contidas em 'obj_entradas_saidas.resultado', e que em todos os testes seja exibida a mensgem 'Passou!'.
+O objetivo é criar uma função, com os parâmtros ```valor``` e ```referencia``` que retorne as strings esperadas, contidas em ```obj_entradas_saidas.resultado```, e que em todos os testes seja exibida a mensgem 'Passou!'.
 ```javascript
 function compararCom(valor, referencia) {
 
