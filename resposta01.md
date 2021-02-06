@@ -1,6 +1,6 @@
 
 
-```
+```javascript
 function compararCom(valor, referencia) {
 
     let resultado = "";
