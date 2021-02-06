@@ -10,4 +10,28 @@ const obj_entradas_saidas_1 = [
   {valor_usuario: 12, valor_referencia: 10, resultado: "Comparação: 12 é maior do que 10."},
 ]
 ```
+Por sua vez, a função de teste será:
+```javascript
+function teste_compararCom(obj_entradas_saidas, minha_funcao){
 
+    obj_entradas_saidas.forEach((obj, i) => {
+
+        let comparacao = minha_funcao(obj.valor_usuario, obj.valor_referencia)
+        let resultado = comparacao === obj.resultado;
+
+        if (resultado === true) {
+            console.log(`Teste[${i+1}]:\t Passou! => |${obj.resultado}| `);
+        }else{
+            console.log(`Teste[${i+1}]:\t F A L H O U => |${comparacao}|`);
+        }
+    });
+}
+```
+A função de teste recebe como parâmetros um 'obj_entradas_saidas' e 'minha_funcao' e executa uma comparação do valor retornado por 'minha_funcao' com o valor esperado, contido em 'obj_entradas_saidas.resultado'. 
+
+O objetivo é criar uma função, com os parâmtros 'valor' e 'referencia' que retorne as strings esperadas, contidas em 'obj_entradas_saidas.resultado', e que em todos os testes seja exibida a mensgem 'Passou!'.
+```javascript
+function compararCom(valor, referencia) {
+
+}
+```
