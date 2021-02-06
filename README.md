@@ -36,3 +36,4 @@ function compararCom(valor, referencia) {
 
 }
 ```
+[Resposta01]
