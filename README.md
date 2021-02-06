@@ -1,8 +1,8 @@
 # ExemplosJS
 Exemplos de uso de métodos e propriedades do Javascript ES6, usando NodeJS no Ubuntu.
 
-  1.[Exemplo 02:](#exemplo-02)
-  2. 
+  1.[Exemplo 02: Um número 'n' é divisível por 'b' ?](#exemplo-02)
+  2. [Exemplo 03: Um número 'n' é divisível por 'b' ?]
   
 
 ### Exemplo 01: é maior do que 10 ?
