@@ -36,4 +36,6 @@ function compararCom(valor, referencia) {
 
 }
 ```
-[Resposta01]
+[Resposta01](https://github.com/TCT9/ExemplosJS/blob/main/resposta01.md)
+
+### Exemplo 02: 
