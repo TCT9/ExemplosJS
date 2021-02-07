@@ -1,11 +1,5 @@
 # ExemplosJS
-Exemplos de uso de métodos e propriedades do Javascript ES6, usando NodeJS no Ubuntu.
-
-1. [Exemplo 02](#exemplo-02) Como fazer isso
-
-2. Como fazer aquilo
-
-3. Como fazer algo
+Exemplos de uso de métodos e propriedades do Javascript ES6, usando NodeJS no Ubuntu. Todo algoritmo tem que ser testado para saber se ele funciona corretamente ou não. 
 
 ### Exemplo 01: é maior do que 10 ?
 O objetivo é criar um algoritmo que compara um valor numérico com o número 10 e depois exiba uma mensagem. Porém, vamos criar primeiro um objeto que irá conter as propriedades ```valor_usuario ``` (valor digitado pelo usuário), ```valor_referencia``` (valor númerico 10) e ```resultado``` (que é o resultado esperado como correto).
@@ -45,6 +39,12 @@ Tópicos abordados neste ```Exemplo 01```:
   1. Estrutura de teste condicional (```if, else if, else```);
   2. Operadores relacionais (```<, >```);
   3.
-[Resposta01](https://github.com/TCT9/ExemplosJS/blob/main/resposta01.md)
+[Resposta01]()
 
-### Exemplo 02: 
+### Outros Exemplos
+
+1. [Exemplo 02](#exemplo-02) Como fazer isso
+
+2. xxx
+
+3. Como fazer algo
