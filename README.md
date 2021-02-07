@@ -39,7 +39,7 @@ Tópicos abordados neste ```Exemplo 01```:
   1. Estrutura de teste condicional (```if, else if, else```);
   2. Operadores relacionais (```<, >```);
   3.
-[Resposta01]()
+[Resposta01](https://github.com/TCT9/ExemplosJS/blob/main/Exemplo01/resposta01.js.md)
 
 ### Outros Exemplos
 
