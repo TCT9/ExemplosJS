@@ -1,7 +1,7 @@
 # ExemplosJS
 Exemplos de uso de métodos e propriedades do Javascript ES6, usando NodeJS no Ubuntu.
 
-  1.[Exemplo 02] (#exemplo-02)
+  1.[Exemplo 02](#exemplo-02)
   
   2. Teste
   
