@@ -44,8 +44,18 @@ Tópicos abordados neste ```Exemplo 01```:
 
 ### Outros Exemplos
 
-1. [Exemplo 02](#exemplo-02) Como fazer isso
+1. [Exemplo 02](#exemplo-02) Qual o maior e o menor número em um array?
 
-2. xxx
+2. [Exemplo 03] Percentual de votos
 
-3. Como fazer algo
+3. [Exemplo 04] Aprovado ou reprovado?
+
+4. [Exemplo 05] Troco mínimo
+
+5. [Exemplo 06] Graus Fahrenheit para Celsius
+
+6. [Exemplo 07] Tenho idade para votar?
+
+7. [Exemplo 08] Esse ano é bissexto?
+
+8. [Exemplo 09] Calcular o IMC
