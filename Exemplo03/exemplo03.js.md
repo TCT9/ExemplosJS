@@ -1,3 +1,15 @@
+## Exemplo 03 - Percentual de votos
+
+Neste exemplo a função ```computarVotos``` recebe um array de strings, simulando a entrada do usuário, das quantidades de votos nulos(índice 0), brancos(índice 1), candidato 1 (índice 2) candidato 2 (índice 3) e candidato 3 (índice 4).
+
+Tópicos abordados:
+
+1. Item ao ```Exemplo 02```;
+
+2. Conversão de string para number;
+
+3. função ```parseFloag``` e ```toFixed```.
+
 ```javascript
 "use strict";
 
@@ -7,9 +19,11 @@ porcentagem de votos brancos e nulos. Monte um programa que receba como entrada 
 número de votos de cada um dos três candidatos e também os votos nulos e brancos. Ao
 final, o programa deve apresentar o total de votos e a porcentagem, em relação a todos
 os eleitores que votaram, de votos de cada candidato, votos nulos e votos em branco.
+    Fonte: lista de exercícios SENAC, Algoritmos e Programação I
 
 Restrição: Os resultados devem ser apresentados com 2 casas decimais. A soma das
 porcentagens deve ser igual a 100.00%. 
+
 */
 
 let obj_entradas_saidas_1 = [
