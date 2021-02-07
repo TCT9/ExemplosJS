@@ -1,5 +1,4 @@
 ```javascript
-
 "use strict";
 
 /*
@@ -17,24 +16,24 @@ deve informar o menor e o maior valor informado.
 let obj_entradas_saidas_1 = [
 
 
-    {dez_inteiros: [0, 4, 2, 6, 5, 3, 8, 1, 7, 9], menor: 0, maior: 9},
-    {dez_inteiros: [0, 4, 2, 6, 3, 9, 8, 1, 7, 5], menor: 0, maior: 9},
-    {dez_inteiros: [5, 8, 6, 7, 0, 1, 4, 3, 2, 9], menor: 0, maior: 9},
-    {dez_inteiros: [5, 8, 6, 7, 9, 1, 4, 3, 2, 0], menor: 0, maior: 9},
-    {dez_inteiros: [9, 8, 6, 7, 0, 1, 4, 3, 2, 5], menor: 0, maior: 9},
-    {dez_inteiros: [9, 8, 6, 7, 5, 1, 4, 3, 2, 0], menor: 0, maior: 9},
+    {teste: 1, dez_inteiros: [0, 4, 2, 6, 5, 3, 8, 1, 7, 9], menor: 0, maior: 9},
+    {teste: 2, dez_inteiros: [0, 4, 2, 6, 3, 9, 8, 1, 7, 5], menor: 0, maior: 9},
+    {teste: 3, dez_inteiros: [5, 8, 6, 7, 0, 1, 4, 3, 2, 9], menor: 0, maior: 9},
+    {teste: 4, dez_inteiros: [5, 8, 6, 7, 9, 1, 4, 3, 2, 0], menor: 0, maior: 9},
+    {teste: 5, dez_inteiros: [9, 8, 6, 7, 0, 1, 4, 3, 2, 5], menor: 0, maior: 9},
+    {teste: 6, dez_inteiros: [9, 8, 6, 7, 5, 1, 4, 3, 2, 0], menor: 0, maior: 9},
 
-    {dez_inteiros: [9, 8, 6, 7, 5, 9, 4, 3, 2, 1, 10], menor: 1, maior: 10},
-    {dez_inteiros: [1, 8, 6, 7, 1, 9, 4, 3, 9, 2, 19], menor: 1, maior: 19},
-    {dez_inteiros: [1, 8, 6, -7 , 1, 9, 4, 3, 9, 2, 19], menor: -7, maior: 19},
-    {dez_inteiros: [1, 8, 6, -7 ,1 ,9 ,4 ,3 ,9 ,2 ,19], menor: -7, maior: 19},
-    {dez_inteiros: [1, 8, 6, -7.5, 1, 9, 4, 3, 9, 2, 20.2], menor: 1, maior: 9},
-    {dez_inteiros: [1.5, 8, 6, -7.5, 1 ,9 , 4, 3, 9, 2, 20.2], menor: 1, maior: 9},
-    {dez_inteiros: [1.5, 8.8 , 6, -7.5, 1, 9, 4, 3, 9, 2, 20.2], menor: 1, maior: 9},
-    {dez_inteiros: [1.5, 8.8, 6.2, -7.5, 1, 9, 4, 3, 9, 2, 20.2], menor: 1, maior: 9},
+    {teste: 7, dez_inteiros: [9, 8, 6, 7, 5, 9, 4, 3, 2, 1, 10], menor: 1, maior: 10},
+    {teste: 8, dez_inteiros: [1, 8, 6, 7, 1, 9, 4, 3, 9, 2, 19], menor: 1, maior: 19},
+    {teste: 9, dez_inteiros: [1, 8, 6, -7 , 1, 9, 4, 3, 9, 2, 19], menor: -7, maior: 19},
+    {teste: 10, dez_inteiros: [1, 8, 6, -7 ,1 ,9 ,4 ,3 ,9 ,2 ,19], menor: -7, maior: 19},
+    {teste: 11, dez_inteiros: [1, 8, 6, -7.5, 1, 9, 4, 3, 9, 2, 20.2], menor: 1, maior: 9},
+    {teste: 12, dez_inteiros: [1.5, 8, 6, -7.5, 1 ,9 , 4, 3, 9, 2, 20.2], menor: 1, maior: 9},
+    {teste: 13, dez_inteiros: [1.5, 8.8 , 6, -7.5, 1, 9, 4, 3, 9, 2, 20.2], menor: 1, maior: 9},
+    {teste: 14, dez_inteiros: [1.5, 8.8, 6.2, -7.5, 1, 9, 4, 3, 9, 2, 20.2], menor: 1, maior: 9},
 
-    {dez_inteiros: [1.5, 8.8, 6.2, -7.5, 1.0, 9.5, 4.5, 3.5, 9.5, 2.5, 20.2], menor: 1, maior: 1},
-    {dez_inteiros: [1.5, 8.8, 6.2, -7.5, 1.02, 9.5, 4.5, 3.5, 9.5, 2.5, 20.2], menor: undefined, maior: undefined},
+    {teste: 15, dez_inteiros: [1.5, 8.8, 6.2, -7.5, 1.0, 9.5, 4.5, 3.5, 9.5, 2.5, 20.2], menor: 1, maior: 1},
+    {teste: 16, dez_inteiros: [1.5, 8.8, 6.2, -7.5, 1.02, 9.5, 4.5, 3.5, 9.5, 2.5, 20.2], menor: undefined, maior: undefined},
 
 ];
 
@@ -50,9 +49,9 @@ function testar_algoritmo(obj_entradas_saidas, minha_funcao){
         let resultado = (menor_ehCorreto && maior_ehCorreto) === true;
 
         if (resultado === true) {
-            console.log(`Teste[${i+1}]:\t Passou! => |menor: ${obj.menor}, maior: ${obj.maior}| `);
+            console.log(`Teste[${obj.teste}]:\t Passou! => |menor: ${obj.menor}, maior: ${obj.maior}| `);
         }else{
-            console.log(`Teste[${i+1}]:\t F A L H O U => |menor: ${objComparacao.fmenor}, maior: ${objComparacao.fmaior}|`);
+            console.log(`Teste[${obj.teste}]:\t F A L H O U => |menor: ${objComparacao.fmenor}, maior: ${objComparacao.fmaior}|`);
         }
     });
 }
