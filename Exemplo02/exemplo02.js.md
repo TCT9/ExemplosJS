@@ -1,7 +1,12 @@
 ## Exemplo 02 - Qual o maior e o menor número em um array?
 
-Neste exemplo é solicitado ao usuário que implemente um algoritmo que testa se um número é ou não maior do 10.
+Neste exemplo é solicitado ao usuário que implemente um algoritmo que retorne o maior e o menor número em um array.
 
+
+Tópicos abrodados neste ```Exemplo 02```
+1. O mesmo do ```Exemplo 01```;
+
+2. Loops (forEach, ou for, ou for ... of ... ou outro de sua escolha)
 
 ```javascript
 "use strict";
