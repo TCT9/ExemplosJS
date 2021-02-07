@@ -44,7 +44,7 @@ Tópicos abordados neste ```Exemplo 01```:
 
 ### Outros Exemplos
 
-1. [Exemplo 02](https://github.com/TCT9/ExemplosJS/tree/main/Exemplo03) Qual o maior e o menor número em um array?
+1. [Exemplo 02](Exemplo02) Qual o maior e o menor número em um array?
 
 2. [Exemplo 03](Exemplo03) Percentual de votos
 
