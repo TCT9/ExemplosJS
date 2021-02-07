@@ -1,7 +1,6 @@
 ```javascript
 /*
-  Escreva	um	programa	para	que	sejam	informados	10	(dez)	números	inteiros.	O	programa	
-  deve	informar	o	menor	e	o	maior	valor	informado.
+Escreva um programa para que sejam informados 10 (dez) números inteiros. O programa deve informar o menor e o maior valor informado.
 
   Restrição: o número deve ser inteiro
   
