@@ -1,3 +1,8 @@
+## Exemplo 02 - Qual o maior e o menor número em um array?
+
+Neste exemplo é solicitado ao usuário que implemente um algoritmo que testa se um número é ou não maior do 10.
+
+
 ```javascript
 "use strict";
 
