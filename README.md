@@ -29,7 +29,7 @@ function teste_compararCom(obj_entradas_saidas, minha_funcao){
 ```
 A função de teste recebe como parâmetros um ```obj_entradas_saidas``` e ```minha_funcao``` e executa uma comparação do valor retornado por ```minha_funcao``` com o valor esperado, contido em ```obj_entradas_saidas.resultado```. 
 
-O objetivo é criar uma função, com os parâmtros ```valor``` e ```referencia``` que retorne as strings esperadas, contidas em ```obj_entradas_saidas.resultado```, e que em todos os testes seja exibida a mensgem 'Passou!'. Abaixo segue um exemplo desse tipo de função:
+O seu objetivo é criar uma função, com os parâmtros ```valor``` e ```referencia``` que retorne as strings esperadas, contidas em ```obj_entradas_saidas.resultado```, e que em todos os testes seja exibida a mensgem 'Passou!'. Abaixo segue um exemplo desse tipo de função:
 ```javascript
 function compararCom(valor, referencia) {
 
@@ -38,7 +38,8 @@ function compararCom(valor, referencia) {
 Tópicos abordados neste ```Exemplo 01```:
   1. Estrutura de teste condicional (```if, else if, else```);
   2. Operadores relacionais (```<, >```);
-  3.
+  3. Uso de Template strings ([Saiba mais](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings))
+  
 [Resposta01](https://github.com/TCT9/ExemplosJS/blob/main/Exemplo01/resposta01.js.md)
 
 ### Outros Exemplos
