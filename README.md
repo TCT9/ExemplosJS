@@ -44,9 +44,9 @@ Tópicos abordados neste ```Exemplo 01```:
 
 ### Outros Exemplos
 
-1. [Exemplo 02](#exemplo-02) Qual o maior e o menor número em um array?
+1. [Exemplo 02](#exemplo02) Qual o maior e o menor número em um array?
 
-2. [Exemplo 03] Percentual de votos
+2. [Exemplo 03](#exemplo03) Percentual de votos
 
 3. [Exemplo 04] Aprovado ou reprovado?
 
