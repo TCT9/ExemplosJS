@@ -28,14 +28,18 @@ function testar_algoritmo(obj_entradas_saidas, minha_funcao){
 
         let total_ehCorreto = objResultado.cTotal_votos === obj.total_votos;
         let percentual_ehCorreto = (function() {
+    
+            /* https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+            O método every executa a função callback fornecida uma vez para cada elemento presente no array, até encontrar 
+            algum elemento em que a função retorne um valor false (valor que se torna false quando convertido para boolean). 
+            Se esse elemento é encontrado, o método every imediatamente retorna false
+            */
 
-            objResultado.cArray_Percentual.forEach((item, index) => {
-                if (item !==  obj.array_percent[index]){
-                    return false;
-                }
+            let result = objResultado.cArray_Percentual.every((item, index) => {
+                return item ===  obj.array_percent[index];
             });
 
-            return true;
+            return result;
 
         })();
 
@@ -58,10 +62,11 @@ function computarVotos(array_strVotos){
     //4: percent. Candidato3
     let array_percentual = [];  
     
-    //Seu algoritmo vai aqui
+    //seu algoritmo vai aqui
 
-  
-  
+
+
+
     //não alterar o objeto de retorno 
     return {cTotal_votos: total, cArray_Percentual: array_percentual};
 }
