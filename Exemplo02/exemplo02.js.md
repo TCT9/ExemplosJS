@@ -61,29 +61,11 @@ function maior_menor(dez_numeros){
     let maior;      //não alterar o nome desta variável
     let menor;      //não alterar o nome desta variável
 
-    let foiInicializado = false;
-
-    for (let numero of dez_numeros){
-        
-        //implemente seu algoritmo aqui
-        if ( Number.isInteger(numero) ){
-
-            if (foiInicializado === false){
-                menor = numero;
-                maior = menor;
-                foiInicializado = true;  
-
-            }else if (numero < menor) {
-                menor = numero;
-
-            }else if (numero > maior) {
-                maior = numero;
-            }
-
-        }
-
-    }
-
+    //seu algoritmo vem aqui
+    
+    
+    
+    
     //não alterar o retorno 
     return {fmaior: maior, fmenor: menor};
 }
