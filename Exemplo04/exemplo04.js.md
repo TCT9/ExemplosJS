@@ -17,6 +17,27 @@ Notar também que os campos no construtor com uma igualdade são opcionais.
         }
 ```
 
+2. ```Raiz```: Esta classe contém as raízes da equação, se houver. Caso não exista raízes reais, a propriedade ```x1``` deve ser setada para ```null```. A propriedade ```numeroDeRaizes``` informa quantas raízes existem.
+```javascript
+        //Classe que contem a(s) raiz(es) da equação
+        class Raiz {
+
+            constructor (x1, x2 = null, numeroDeRaizes = null){
+                this.x1 = x1;
+                this.x2 = x2;
+                this.numeroDeRaizes = numeroDeRaizes;    
+            }
+        }
+```
+
+3. ```Equacao2Grau```: Esta classe  contém um construtor que recebe os parâmetros ```A```, ```B``` e ```C``` e retorna um objeto do tipo ```Result```, cuja propriedade ```result``` contém a instância atual de ```Equacao2Grau```.  Seus métodos são:
+        
+        3.1) getDelta(): 
+        
+        3.2) gerRaiz()
+
+
+
 
 
 ```javascript
