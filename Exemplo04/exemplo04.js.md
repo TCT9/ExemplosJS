@@ -43,7 +43,11 @@ Notar também que os campos no construtor com uma igualdade são opcionais.
 
 5. ```create_Equacao2Grau```:Esta função cria uma instância de ```Equacao2Grau``` e retorna o objeto ```CompararSaida```.
 
-6.```SaidaEsperada```: Esta classe contém as propriedades de uma saída esperada(correta).
+6.```SaidaEsperada```: Esta classe contém as propriedades de uma saída esperada(correta). Por exemplo:
+       ```javascript let objSaidaEsperada = new SaidaEsperada(1,-5,6, new CompararSaida(1,false,2,3,2)```
+       Representa uma equação do tipo: 1*x^2 - 5*x + 6 (parâmetros: 1, -5, 6)
+       Já a saída esperada(correta) ```new CompararSaida(1,false,2,3,2)```, representa: Delta = 1, temErro = false, numeroDeRaizes = 2, x1 = 3, x2 = 2
+ 
 
 7. ```obj_entradas_saidas_1```: Este objeto contém os parâmetros de entrada para a função ```create_Equacao2Grau``` bem como a saída esperada, na forma do objeto ```SaidaEsperada```.  
 
@@ -55,9 +59,9 @@ Espera-se que o usuário implemente o algoritmo que encontre as raízes reais de
 "use strict";
 
 /*
-1.1) Construa um algoritmo para calcular as raízes de uma equação do 2º grau (A*x^2
-+ B*x + C), sendo que os valores A, B e C são fornecidos pelo usuário (considere que
-a equação possui duas raízes reais). Onde '^' é o operador de exponenciação.
+1.1) Construa um algoritmo para calcular as raízes reais de uma equação do 2º grau (A*x^2
++ B*x + C), sendo que os valores A, B e C são fornecidos pelo usuário.
+Onde '^' é o operador de exponenciação.
     Fonte: Forbellone, 3ª edição, capítulo 3, adaptado.
 
 Restriçoes: 
@@ -114,6 +118,7 @@ let obj_entradas_saidas_1 = [
     {teste: 1, objSaida: new SaidaEsperada(1,-5,6, new CompararSaida(1,false,2,3,2) )},
     {teste: 2, objSaida: new SaidaEsperada(1,-5, 7, new CompararSaida(-3, true, null, null, null, "Erro: Esta equação não tem raízes reais!") )},
     {teste: 3, objSaida: new SaidaEsperada(0,-5,6, new CompararSaida(null, true, null, null, null, "Erro: Parêmtro 'A' não pode ser zero!" )) },
+    {teste: 4, objSaida: new SaidaEsperada(1,-4,4, new CompararSaida(0, false, 1, 2, 2))},
 
 ];
 
