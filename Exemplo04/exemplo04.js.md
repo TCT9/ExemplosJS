@@ -3,7 +3,8 @@
 
 O objetivo desse exemplo é cálcular as raízes reais de uma equação do 2º grau, com duas casas decimais de aproximação, usando classes Javascript.
 
-### Descrição das classes.
+### Descrição das classes/funções.
+
 1. ```Result```: Todo retorno de método/função/objeto é sempre do tipo ```Result```. Se houver um erro, a propriedade ```temErro``` deverá ser setada para ```true```. Já a propriedade ```mensagemErro``` deve conter uma descrição do erro ocorrido. O objeto ```objErro``` descreve o erro ocorrido com mais detalhes. A propriedade ```result``` contém um resultado válido, que pode ser um valor primitivo ou um objeto.
 Notar também que os campos no construtor com uma igualdade são opcionais.
 ```javascript
@@ -36,11 +37,19 @@ Notar também que os campos no construtor com uma igualdade são opcionais.
        o valor de Delta da equação do 2º grau.
         
   3.2) gerRaiz(): retorna um objeto ```Result```, cuja propriedade ```result``` contém 
-       o objeto ```Raiz```, que por sua vez tem as raízes da equação do 2] grau.
+       o objeto ```Raiz```, que por sua vez tem as raízes da equação do 2º grau.
 
+4. ```CompararSaida```: Esta classe contèm as propriedades que devem ser comparadas com a saída esperada do teste.
 
+5. ```create_Equacao2Grau```:Esta função cria uma instância de ```Equacao2Grau``` e retorna o objeto ```CompararSaida```.
 
+6.```SaidaEsperada```: Esta classe contém as propriedades de uma saída esperada(correta).
 
+7. ```obj_entradas_saidas_1```: Este objeto contém os parâmetros de entrada para a função ```create_Equacao2Grau``` bem como a saída esperada, na forma do objeto ```SaidaEsperada```.  
+
+As outras classes/funções (```console_log``` e ```testar_Algoritmo```) são necessárias para executar o teste.
+
+Espera-se que o usuário implemente o algoritmo que encontre as raízes reais de uma equação do 2º grau, na classe ```Equacao2Grau``` e abaixo do comentário ```//Seu algoritmo vai aqui```.
 
 ```javascript
 "use strict";
