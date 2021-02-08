@@ -39,7 +39,7 @@ Notar também que os campos no construtor com uma igualdade são opcionais.
       3.2) gerRaiz(): retorna um objeto ```Result```, cuja propriedade ```result``` contém 
            o objeto ```Raiz```, que por sua vez tem as raízes da equação do 2º grau.
 
-4. ```CompararSaida```: Esta classe contèm as propriedades que devem ser comparadas com a saída esperada do teste.
+4. ```CompararSaida```: Esta classe contèm as propriedades que devem ser comparadas com a saída esperada (correta) do teste.
 
 5. ```create_Equacao2Grau```:Esta função cria uma instância de ```Equacao2Grau``` e retorna o objeto ```CompararSaida```.
 
