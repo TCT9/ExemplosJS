@@ -209,7 +209,11 @@ function create_Equacao2Grau(A, B, C){
 //Testa o seu algoritmo, não alterar.
 testar_Algoritmo(obj_entradas_saidas_1, create_Equacao2Grau);
 
+/*
+Saída esperada:
 
-
-
+Teste[1]:        Passou! => |Delta: 1, temErro: false, numeroDeRaizes: 2, x1: 3, x2: 2, mensagemErro: | 
+Teste[2]:        Passou! => |Delta: -3, temErro: true, numeroDeRaizes: null, x1: null, x2: null, mensagemErro: Erro: Esta equação não tem raízes reais!| 
+Teste[3]:        Passou! => |Delta: null, temErro: true, numeroDeRaizes: null, x1: null, x2: null, mensagemErro: Erro: Parêmtro 'A' não pode ser zero!| 
+*/
 ```
