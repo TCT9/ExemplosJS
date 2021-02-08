@@ -1,5 +1,5 @@
 # ExemplosJS
-Exemplos de uso de métodos e propriedades do Javascript ES6, usando NodeJS no Ubuntu. 
+Exemplos de uso de métodos e propriedades do Javascript ES6 em diante, usando NodeJS no Ubuntu. 
 
 Todo algoritmo aqui tem um teste, realizado pela função ```testar_algoritmo``` que irá verificar se o algoritmo implementado pelo usuário funciona corretemante ou não. 
 
