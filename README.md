@@ -52,9 +52,9 @@ Tópicos abordados neste ```Exemplo 01```:
 
 3. [Exemplo 04](Exemplo04) Calcular raizes reais de uma equação de 2º grau (usando classes)
 
-4. [Exemplo 05](Exemplo05) Calcular as raízes complexas uma equação de 2º grau (usando classes)
+4. [Exemplo 05](Exemplo05) Classe 
 
-5. [Exemplo 06] Graus Fahrenheit para Celsius
+5. [Exemplo 06] (Exemplo06) Calcular as raízes complexas uma equação de 2º grau (usando classes)
 
 6. [Exemplo 07] Tenho idade para votar?
 
