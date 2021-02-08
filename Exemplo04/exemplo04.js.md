@@ -11,8 +11,10 @@ a equação possui duas raízes reais). Onde '^' é o operador de exponenciaçã
 
 Restriçoes: 
     1) O número deve ter duas casas decimais. 
-    2) O valor de 'A' deve ser diferente de zero. Se 'A' for zero, retornar a frase: 'Erro: Parêmtro 'A' não pode ser zero!'
-    3) Se for não houver raízes reais, retornar a frase: 'Erro: Esta equação não tem raízes reais!'
+    2) O valor de 'A' deve ser diferente de zero. Se 'A' for zero, 
+    retornar a frase: 'Erro: Parêmtro 'A' não pode ser zero!'
+    3) Se for não houver raízes reais, retornar a frase: 
+    'Erro: Esta equação não tem raízes reais!'
     4) Todo retorno de método deve ser do tipo 'Result'.
 */
 
