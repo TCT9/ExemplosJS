@@ -49,7 +49,7 @@ Notar também que os campos no construtor com uma igualdade são opcionais.
 
 As outras classes/funções (```console_log``` e ```testar_Algoritmo```) são necessárias para executar o teste.
 
-Espera-se que o usuário implemente o algoritmo que encontre as raízes reais de uma equação do 2º grau, na classe ```Equacao2Grau``` e abaixo do comentário ```//Seu algoritmo vai aqui```.
+Espera-se que o usuário implemente o algoritmo que encontre as raízes reais de uma equação do 2º grau, na classe ```Equacao2Grau``` e abaixo do comentário ```//seu código vem aqui```.
 
 ```javascript
 "use strict";
