@@ -32,11 +32,11 @@ Notar também que os campos no construtor com uma igualdade são opcionais.
 
 3. ```Equacao2Grau```: Esta classe  contém um construtor que recebe os parâmetros ```A```, ```B``` e ```C``` (```y = A*x^2 + B*x + C```)e retorna um objeto do tipo ```Result```, cuja propriedade ```result``` contém a instância atual de ```Equacao2Grau```.  Seus métodos são:
         
-        3.1) getDelta(): retorna um objeto ```Result```, cuja propriedade ```result``` contém 
-        o valor de Delta da equação do 2º grau.
+  3.1) getDelta(): retorna um objeto ```Result```, cuja propriedade ```result``` contém 
+       o valor de Delta da equação do 2º grau.
         
-        3.2) gerRaiz(): retorna um objeto ```Result```, cuja propriedade ```result``` contém 
-        o objeto ```Raiz```, que por sua vez tem as raízes da equação do 2] grau.
+  3.2) gerRaiz(): retorna um objeto ```Result```, cuja propriedade ```result``` contém 
+       o objeto ```Raiz```, que por sua vez tem as raízes da equação do 2] grau.
 
 
 
