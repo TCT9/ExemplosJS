@@ -4,7 +4,8 @@
 O objetivo desse exemplo é cálcular as raízes reais de uma equação do 2º grau, com duas casas decimais de aproximação, usando classes Javascript.
 
 ### Descrição das classes.
-1. ```Result```: Todo retorno de método/função/objeto é sempre do tipo ```Result```. Se houver um erro, a propriedade ```temErro``` será ```true```.
+1. ```Result```: Todo retorno de método/função/objeto é sempre do tipo ```Result```. Se houver um erro, a propriedade ```temErro``` deverá ser setada para ```true```. Já a propriedade ```mensagemErro``` deve conter uma descrição do erro ocorrido. O objeto ```objErro``` descreve o erro ocorrido com mais detalhes. A propriedade ```result``` contém um resultado válido, que pode ser um valor primitivo ou um objeto.
+Notar também que os campos no construtor com uma igualdade são opcionais.
 ```javascript
         class Result {
             constructor(result, temErro = false, mensagemErro = "", objErro = null){
