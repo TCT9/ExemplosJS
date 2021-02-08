@@ -50,9 +50,9 @@ Tópicos abordados neste ```Exemplo 01```:
 
 2. [Exemplo 03](Exemplo03) Percentual de votos
 
-3. [Exemplo 04](Exemplo04) Calcular raizes de equação de 2º grau (usando classes)
+3. [Exemplo 04](Exemplo04) Calcular raizes reais de uma equação de 2º grau (usando classes)
 
-4. [Exemplo 05] Troco mínimo
+4. [Exemplo 05](Exemplo05) Calcular as raízes comĺexas uma equação de 2º grau (usando classes)
 
 5. [Exemplo 06] Graus Fahrenheit para Celsius
 
