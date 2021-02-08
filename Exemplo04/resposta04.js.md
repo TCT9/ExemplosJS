@@ -73,7 +73,7 @@ function testar_Algoritmo(obj_entradas_saidas, minha_funcao){
         let equ2Grau = minha_funcao(obj.objSaida.A, obj.objSaida.B, obj.objSaida.C);
 
         let resultado;
-        //bject.entries: retorna o par chave e valor do objeto
+        //object.entries: retorna o par chave e valor do objeto
         for (let [key, value] of Object.entries(equ2Grau)) {
             
             //testa se o valor, de 'equ2Grau' é o mesmo de 'obj.objSaida.objCompararSaida[key]'
