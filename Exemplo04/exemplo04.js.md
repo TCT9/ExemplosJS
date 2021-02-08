@@ -1,7 +1,25 @@
+## Exemplo 04 - Calcular raizes de equação de 2º grau (usando classes)
+
+
+O objetivo desse exemplo é cálcular as raízes reais de uma equação do 2º grau, com duas casas decimais de aproximação, usando classes Javascript.
+
+### Descrição das classes.
+1. ```Result```: Todo retorno de método/função/objeto é sempre do tipo ```Result```. Se houver um erro, a propriedade ```temErro``` será ```true```.
 ```javascript
+        class Result {
+            constructor(result, temErro = false, mensagemErro = "", objErro = null){
+                this.result = result;
+                this.temErro = temErro;
+                this.mensagemErro = mensagemErro;
+                this.objErro = objErro;
+            }
+        }
+```
 
 
-"use scritc";
+
+```javascript
+"use strict";
 
 /*
 1.1) Construa um algoritmo para calcular as raízes de uma equação do 2º grau (A*x^2
