@@ -52,7 +52,7 @@ Tópicos abordados neste ```Exemplo 01```:
 
 3. [Exemplo 04](Exemplo04) Calcular raizes reais de uma equação de 2º grau (usando classes)
 
-4. [Exemplo 05](Exemplo05) Calcular as raízes comĺexas uma equação de 2º grau (usando classes)
+4. [Exemplo 05](Exemplo05) Calcular as raízes complexas uma equação de 2º grau (usando classes)
 
 5. [Exemplo 06] Graus Fahrenheit para Celsius
 
