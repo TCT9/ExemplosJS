@@ -44,7 +44,7 @@ Notar também que os campos no construtor com uma igualdade são opcionais.
 5. ```create_Equacao2Grau```:Esta função cria uma instância de ```Equacao2Grau``` e retorna o objeto ```CompararSaida```.
 
 6.```SaidaEsperada```: Esta classe contém as propriedades de uma saída esperada(correta). Por exemplo:
-       ```javascript let objSaidaEsperada = new SaidaEsperada(1,-5,6, new CompararSaida(1,false,2,3,2)```
+       ```let objSaidaEsperada = new SaidaEsperada(1,-5,6, new CompararSaida(1,false,2,3,2)```
        Representa uma equação do tipo: 1*x^2 - 5*x + 6 (parâmetros: 1, -5, 6)
        Já a saída esperada(correta) ```new CompararSaida(1,false,2,3,2)```, representa: Delta = 1, temErro = false, numeroDeRaizes = 2, x1 = 3, x2 = 2
  
