@@ -4,9 +4,9 @@
 "use strict";
 
 /*
-1.1) Construa um algoritmo para calcular as raízes de uma equação do 2º grau (A*x^2
-+ B*x + C), sendo que os valores A, B e C são fornecidos pelo usuário (considere que
-a equação possui duas raízes reais). Onde '^' é o operador de exponenciação.
+1.1) Construa um algoritmo para calcular as raízes reais de uma equação do 2º grau (A*x^2
++ B*x + C), sendo que os valores A, B e C são fornecidos pelo usuário.
+Onde '^' é o operador de exponenciação.
     Fonte: Forbellone, 3ª edição, capítulo 3, adaptado.
 
 Restriçoes: 
@@ -61,6 +61,7 @@ let obj_entradas_saidas_1 = [
     {teste: 1, objSaida: new SaidaEsperada(1,-5,6, new CompararSaida(1,false,2,3,2) )},
     {teste: 2, objSaida: new SaidaEsperada(1,-5, 7, new CompararSaida(-3, true, null, null, null, "Erro: Esta equação não tem raízes reais!") )},
     {teste: 3, objSaida: new SaidaEsperada(0,-5,6, new CompararSaida(null, true, null, null, null, "Erro: Parêmtro 'A' não pode ser zero!" )) },
+    {teste: 4, objSaida: new SaidaEsperada(1,-4,4, new CompararSaida(0, false, 1, 2, 2))},
 
 ];
 
