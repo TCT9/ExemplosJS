@@ -50,7 +50,7 @@ Tópicos abordados neste ```Exemplo 01```:
 
 2. [Exemplo 03](Exemplo03) Percentual de votos
 
-3. [Exemplo 04] Aprovado ou reprovado?
+3. [Exemplo 04](Exemplo04) Calcular raizes de equação de 2º grau (usando classes)
 
 4. [Exemplo 05] Troco mínimo
 
