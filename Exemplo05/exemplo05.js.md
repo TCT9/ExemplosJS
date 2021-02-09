@@ -1,6 +1,6 @@
 ### Exemplo 05 - Calcular como raízes complexas uma equação de 2º grau (usando classes)
 
-O código quase idêntico ao do Exemplo 04. São necessárias poucas alterações no código para imprimir raízes complexas.
+O código é quase idêntico ao do Exemplo 04. São necessárias poucas alterações no código para imprimir raízes complexas.
 
 ```javascript
 
