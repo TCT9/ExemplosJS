@@ -1,3 +1,6 @@
+### Exemplo 05 - Calcular como raízes complexas uma equação de 2º grau (usando classes)
+
+O código quase idêntico ao do Exemplo 04. São necessárias poucas alterações no código para imprimir raízes complexas.
 
 ```javascript
 
@@ -171,40 +174,11 @@ class Equacao2Grau {
 
     //retorna a raiz real da equação, se houver 
     getRaiz() {
-        let ehComplexo = false; //nova variável
-        let resultado;
-        let  delta = this.getDelta().result;
-
-        if (delta < 0 ) {
-            ehComplexo = true;
-            delta = -delta;
-        }
-
-        let const_raiz_delta = Math.sqrt(delta)/(2*this._A);
-        let const_raiz_B = -this._B/(2*this._A);
-        let numeroDeRaizes;
-        let x1, x2;
-
-        if (ehComplexo === false){
-
-            //se apenas para impressão, nada impede destas variáveis serem strings. 
-            //Se fossem strings, o 'obj_entradas_saidas_1' tem que ser modificado
-            //para conter na saída esperada as raízes como string.
-            x1 = parseFloat( (const_raiz_B + const_raiz_delta).toFixed(2) );
-            x2 = parseFloat( (const_raiz_B - const_raiz_delta).toFixed(2) );
-    
-            numeroDeRaizes = x1 === x2 ? 1 : 2
+        let resultado;  //não alterar
         
-        }else{
+        //seu código vem aqui
 
-            //se complexo, retornamos uma string
-            x1 =  `${const_raiz_B.toFixed(2)} + ${const_raiz_delta.toFixed(2)}*j`;
-            x2 =  `${const_raiz_B.toFixed(2)} - ${const_raiz_delta.toFixed(2)}*j`;
-    
-            numeroDeRaizes = 2
-    
-        }
-
+        //não alterar
         resultado = new Result(new Raiz(x1,x2,numeroDeRaizes));
 
         return resultado;
