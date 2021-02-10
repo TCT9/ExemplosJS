@@ -54,7 +54,7 @@ Tópicos abordados neste ```Exemplo 01```:
 
 4. [Exemplo 05](Exemplo05) Calcular as raízes complexas uma equação de 2º grau (usando classes) 
 
-5. [Exemplo 06] (Exemplo06) 
+5. [Exemplo 06] (Exemplo06) Sobrecarga de construtor 
 
 6. [Exemplo 07] Tenho idade para votar?
 
