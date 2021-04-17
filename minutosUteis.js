@@ -640,7 +640,7 @@ let array_feriados2 = [10];
 let index;
 let array_item = [5, 10, 12];
 let array_tipo = [-1, 0, 1];
-let resultado_esperado = [[-1,0,0], [-1,0,-1], [0,0,1]];
+let resultado_esperado = [[-1,0,0], [-1,0,-1], [0,0,-1]];
 
 for (let i = 0; i < array_tipo.length; i++){
 
