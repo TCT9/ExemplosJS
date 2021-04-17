@@ -633,14 +633,15 @@ console.log("Fevereiro - Sexta até quinta depois do carnaval - Minutos uteis-4:
 
 /*
 
-
-                     // 0  1   2   3   4   5     6   7   8   9   10                  15                  20
-let array_feriados2 = [10];
+                     // 0  1   2   3   4   5     6   7   8   9   10
+let array_feriados2 = [10, 45, 55, 65, 66, 67, 70, 71, 80, 85, 100];
 
 let index;
-let array_item = [5, 10, 12];
+let array_item = [12, 30, 45, 50, 66, 68, 71, 77, 80, 82, 100];
 let array_tipo = [-1, 0, 1];
-let resultado_esperado = [[-1,0,0], [-1,0,-1], [0,0,-1]];
+
+console.log(`Index: 0- 1- 2- 3- 4- 5- 6- 7- 8- 9- 10`);
+console.log(`Array: ${array_feriados2}\n`);
 
 for (let i = 0; i < array_tipo.length; i++){
 
@@ -652,10 +653,49 @@ for (let i = 0; i < array_tipo.length; i++){
     console.log("\n");
 }
 
-for (let j = 0; j < array_item.length; j++){
-    index = pesquisa_index(array_feriados2, array_item[j], 1);
-    console.log(`Teste ==> Item: ${array_item[j]}, tipo: 1 => Resultado: ${index}`);
-}
+    /* Saída:
 
+    Index: 0- 1- 2- 3- 4- 5- 6- 7- 8- 9- 10
+    Array: 10,45,55,65,66,67,70,71,80,85,100
+
+    Item: 12, tipo: -1 => Resultado: 0
+    Item: 30, tipo: -1 => Resultado: 0
+    Item: 45, tipo: -1 => Resultado: 1
+    Item: 50, tipo: -1 => Resultado: 1
+    Item: 66, tipo: -1 => Resultado: 4
+    Item: 68, tipo: -1 => Resultado: 5
+    Item: 71, tipo: -1 => Resultado: 7
+    Item: 77, tipo: -1 => Resultado: 7
+    Item: 80, tipo: -1 => Resultado: 8
+    Item: 82, tipo: -1 => Resultado: 8
+    Item: 100, tipo: -1 => Resultado: 10
+
+
+    Item: 12, tipo: 0 => Resultado: -1
+    Item: 30, tipo: 0 => Resultado: -1
+    Item: 45, tipo: 0 => Resultado: 1
+    Item: 50, tipo: 0 => Resultado: -1
+    Item: 66, tipo: 0 => Resultado: 4
+    Item: 68, tipo: 0 => Resultado: -1
+    Item: 71, tipo: 0 => Resultado: 7
+    Item: 77, tipo: 0 => Resultado: -1
+    Item: 80, tipo: 0 => Resultado: 8
+    Item: 82, tipo: 0 => Resultado: -1
+    Item: 100, tipo: 0 => Resultado: 10
+
+
+    Item: 12, tipo: 1 => Resultado: 1
+    Item: 30, tipo: 1 => Resultado: 1
+    Item: 45, tipo: 1 => Resultado: 1
+    Item: 50, tipo: 1 => Resultado: 2
+    Item: 66, tipo: 1 => Resultado: 4
+    Item: 68, tipo: 1 => Resultado: 6
+    Item: 71, tipo: 1 => Resultado: 7
+    Item: 77, tipo: 1 => Resultado: 8
+    Item: 80, tipo: 1 => Resultado: 8
+    Item: 82, tipo: 1 => Resultado: 9
+    Item: 100, tipo: 1 => Resultado: 10
+
+    */
 
 */
